@@ -15,7 +15,7 @@ export const App = () => {
     // This is the main container for the whole app
     <div className="app">
       <div className="title-container">
-        <h1>New Releases</h1>
+        <h1>Nyeste episoder fra VRANG</h1>
       </div>
        {/* This div contains all album cards */}
       <div className="album-grid">
