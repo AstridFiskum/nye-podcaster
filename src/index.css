@@ -1,22 +1,10 @@
 /* src/index.css */
 
-/* 
 html {
   margin: 0;
   font-family: Helvetica;
-  background: url('./white-marble-4.jpg') no-repeat center center fixed, #010101;  kommenter ut dette: bilde + fallback-farge 
-  background-size: cover;
-}  */
-
-html {
-  margin: 0;
-  font-family: Helvetica;
-  background:
-    linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.10)),  /* mørk skygge */
-    url('./assets/white-marble-4.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #010101;
 }
-
 
 .title-container {
   max-width: 1400px;
@@ -159,7 +147,7 @@ html {
 h1 {
   margin: 30px 5px 20px 30px;
   font-size: 2rem;
-  color: #070404;
+  color: #ffffff;
 }
 
 @media (min-width: 667px) and (max-width: 1023px) {
